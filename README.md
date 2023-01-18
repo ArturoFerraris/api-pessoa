@@ -1,6 +1,15 @@
 # api-pessoa
-<b>Projeto de Api para avaliação técnica de conhecimentos backend.</b>
-
+<h3>:information_source: Sobre o projeto</h3><br>
+<h4>Projeto desenvolvido em Java, SpringBoot e Lombok, para comtemplar os seguintes cenários:<br>
+<ul> 
+<li>Criar uma pessoa</li>
+<li>Editar uma pessoa</li>
+<li>Consultar uma pessoa</li>
+<li>Listar Pessoa</li>
+<li>Criar Endereço para pessoa</li> 
+<li>Listar endereços da Pessoa</li>
+<li>Poder informar qual endereço é o principal da pessoa</li>
+</ul>
 • Durante a implementação de uma nova funcionalidade de software solicitada, quais critérios você avalia e implementa para garantia de qualidade de software?<br>
 R: Para garantir a qualidade, o ideal é que façamos a utilização dos princípios:<br>
  -S.O.L.I.D.:<br>
@@ -19,5 +28,5 @@ Comentar apenas o necessário.<br>
 Garantir que o código continuará fazendo o que precisa.<br>
 O código só é considerado limpo após ser validado através de testes.<br><br>
 
-•	Em qual etapa da implementação você considera a qualidade de software?
-R:
+•	Em qual etapa da implementação você considera a qualidade de software?<br>
+R: Todo o processo.<br>
