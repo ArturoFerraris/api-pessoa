@@ -19,6 +19,7 @@ public class Endereco {
 	private String cep;
 	private Long numero;
 	private String cidade;
+	private boolean enderecoPrincipal;
 
 	@Column(name = "id_pessoa")
 	private Long idPessoa;
