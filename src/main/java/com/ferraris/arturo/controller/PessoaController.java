@@ -26,6 +26,12 @@ public class PessoaController {
 	public List<Pessoa> listar() {
 		return pessoaRepository.findAll();
 	}
+	
+	@GetMapping("/{id}/buscar-pessoa")
+	@ResponseStatus(HttpStatus.OK)
+	public Object listarPessoa(@PathVariable Long id) {
+		return pessoaRepository.findById(id);
+	}
 
 	@PostMapping("/criar-pessoas")
 	@ResponseStatus(HttpStatus.CREATED)
